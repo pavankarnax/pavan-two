@@ -17,7 +17,7 @@ jobs:
           owner: pavankarnax
           repo: pavan-one
           github_token: ${{ secrets.G_ACCESS_TOKEN }}
-          workflow_file_name: main.yml
+          workflow_file_name: pavan-called.yml
           ref: main
       - name: Deploy Web App
         run: |
